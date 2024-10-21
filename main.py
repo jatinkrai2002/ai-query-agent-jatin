@@ -42,7 +42,7 @@ class QueryResponse(BaseModel):
     answer: str
 
 
-apikey = "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"
+apikey = "<provide openai key>"
 
 #use openai object with apikey
 client = OpenAI(api_key= apikey)
